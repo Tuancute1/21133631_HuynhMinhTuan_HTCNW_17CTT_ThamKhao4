@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper{
+    width: 1200px;
+    height: 700px;
+    border: 2px solid;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #ac4b16;
+    position: relative;
+    color: #ddc705;
+    text-shadow: 3px 5px 8px;
+}
+.name-company{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+section{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 0px;
+    border: 1px solid;
+}
+.top-menu li{
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    list-style: none;
+    line-height: 50px;
+    text-indent: -5px;
+    text-align: center;
+}
+li{
+    text-decoration: none;
+}
+.top-menu li:first-child{
+    left: 20px;
+    bottom: 0px;
+}
+.top-menu li:nth-child(2){
+    left: 140px;
+    bottom: 0px;
+}
+.top-menu li:nth-child(3){
+    left: 260px;
+    bottom: 0px;
+}
+.top-menu li:nth-child(4){
+    left: 380px;
+    bottom: 0px;
+}
+.top-menu li:last-child{
+    left: 500px;
+    bottom: 0px;
+}
+li:hover>a{
+    color: rgb(212, 29, 29);
+    font-style: italic;
+    font-weight: bolder;
+}
+.top-menu li .sub-menu li{
+    display: none;
+    position: absolute;
+}
+.top-menu li:hover .sub-menu li:nth-child(1){
+    display: block;
+    width: 200px;
+    z-index: 2;
+    top: 45px;
+    left: -40px;
+}
+.top-menu li:hover .sub-menu li:nth-child(2){
+    display: block;
+    width: 200px;
+    z-index: 2;
+    top: 90px;
+    left: -40px;
+}
+.top-menu li:hover{
+    background-color: red;
+}
+nav{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+.n1{
+    position: absolute;
+    color: rgb(210, 127, 10);
+    top: 130px;
+    left: 20px;
+}
+.page1{
+    width: 840px;
+    height: 350px;
+    top: 150px;
+    position: absolute;
+}
+.n2{
+    position: absolute;
+    top: 10px;
+    width: 400px;
+    left: 40px;
+}
+.input{
+    position: absolute;
+    top: 70px;
+    line-height: 50px;
+    left: 40px;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    width: 500px;
+}
+.input1{
+    border: 1px solid;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+    background-color: darkgreen;
+    color: white;
+}
+.page2{
+    position: absolute;
+    right: 0px;
+    background-color: #FAEBD7;
+    width: 250px;
+    height: 170px;
+    border: none;
+    border-radius: 20px;
+}
+.links{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    list-style: square;
+}
+.p1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.page3{
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    height: 170px;
+    top: 300px;
+}
+.i2{
+    position: absolute;
+}
+.i3{
+    position: absolute;
+    left: 100px;
+}
+footer{
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    background-color: red;
+    background-image: url(../img/2.jpg);
+}
+.f1{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: white;
+}
