@@ -109,6 +109,7 @@ nav{
     top: 10px;
     width: 400px;
     left: 40px;
+    color: #c9a06a;
 }
 .input{
     position: absolute;
@@ -144,25 +145,32 @@ input{
     bottom: 0px;
     right: 20px;
     list-style: square;
+    color: #dcac6d;
+}
+.links li:hover{
+    color: red;
 }
 .p1{
     position: absolute;
     top: 10px;
     left: 10px;
+    color: #c9a06a;
 }
 .page3{
     position: absolute;
-    right: 0px;
-    width: 250px;
+    right: 50px;
+    width: 180px;
     height: 170px;
     top: 300px;
 }
-.i2{
-    position: absolute;
+.info img{
+    width: 100px;
+    float: left;
+    margin-right: 12px;
 }
-.i3{
-    position: absolute;
-    left: 100px;
+.info .img_input{
+    padding: 0px;
+    border: 1px solid;
 }
 footer{
     position: absolute;
